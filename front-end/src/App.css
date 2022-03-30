@@ -40,8 +40,8 @@
 }
 
 img{
-  width: 100px;
-  height: 400px;
+  width: 200px;
+  height: 150px;
 }
 
 .card{
@@ -79,4 +79,8 @@ img{
   bottom: 0px;
   left: 0px;
   padding-top: 20px;
+}
+.col-md-4{
+  border: 0.2cm;
+  border-color: black;
 }

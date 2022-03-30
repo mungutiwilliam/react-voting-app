@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { useState } from 'react';
 import Card from "./CardUI";
+import bootstrap from "bootstrap";
+
 
 function Voting(){
     const [data, setData] =useState('');
@@ -50,55 +52,75 @@ function Voting(){
                 <form onSubmit = {handleSubmit} method="post" required >
                 <div className="row text-white ">
                     <div className="col-md-4">
-                        <h2>Charirperson</h2>
+                        <h2>Chairperson</h2>
                         <input type="radio" id="candidate" name ='Charirperson' value ='William' onChange={handleChange}/>
                         <label for="William">William</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/1.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Charirperson' value ='Jack' onChange={handleChange}/>
                         <label for="Jack">Jack</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/2.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Charirperson' value ='Loulou' onChange={handleChange}/>
                         <label for="Loulou">Loulou</label><br></br>
-                       <Card /> 
+                        <img src = {process.env.PUBLIC_URL + '/images/f/1.jpg'}/><br></br>
+                        
                     </div>
+                    <hr></hr>
                     <div className="col-md-4">
                         <h2>Vice President</h2>
                         <input type="radio" id="candidate" name ='Vice-President' value ='Jane' onChange={handleChange}/>
                         <label for="Jane">Jane</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/f/2.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Vice-President' value ='Martha' onChange={handleChange}/>
                         <label for="Martha">Martha</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/f/3.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Vice-President' value ='Maria' onChange={handleChange}/>
                         <label for="Maria">Maria</label><br></br>
-                    <Card />  
+                        <img src = {process.env.PUBLIC_URL + '/images/f/4.jpg'}/><br></br>
+                        
                     </div>
+                    <hr></hr>
                     <div className="col-md-4">
                         <h2>Secretary General</h2>
                         <input type="radio" id="candidate" name ='Secretary-General' value ='Brenda' onChange={handleChange}/>
                         <label for="Brenda">Brenda</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/f/5.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Secretary-General' value ='Caesar' onChange={handleChange}/>
                         <label for="Caesar">Caesar</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/3.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Secretary-General' value ='Peter' onChange={handleChange}/>
                         <label for="Peter">Peter</label><br></br>
-                    <Card /> 
+                        <img src = {process.env.PUBLIC_URL + '/images/m/4.jpg'}/><br></br>
+                    
                     </div>
+                    <hr></hr>
                     <div className="col-md-4">
                         <h2>Deputy Secretary General</h2>
                         <input type="radio" id="candidate" name ='Deputy-Secretary-General' value ='Noah' onChange={handleChange}/>
                         <label for="Noah">Noah</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/5.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Deputy-Secretary-General' value ='Oliver' onChange={handleChange}/>
                         <label for="Oliver">Oliver</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/6.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Deputy-Secretary-General' value ='Jean' onChange={handleChange}/>
                         <label for="Jean">Jean</label><br></br>
-                    <Card /> 
+                        <img src = {process.env.PUBLIC_URL + '/images/f/6.jpg'}/><br></br>
+                        
                     </div>
+                    <hr></hr>
                     <div className="col-md-4">
                         <h2>Council Treasurer</h2>
                         <input type="radio" id="candidate" name ='Council-Treasurer' value ='Liamson' onChange={handleChange}/>
                         <label for="Liamson">Liamson</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/7.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Council-Treasurer' value ='Joshua' onChange={handleChange}/>
                         <label for="Joshua">Joshua</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/8.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Council-Treasurer' value ='Tchalla' onChange={handleChange}/>
-                        <label for="Tchalla">Tchalla</label>
-                    <Card /> 
+                        <label for="Tchalla">Tchalla</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/9.jpg'}/><br></br>
+                        
                     </div>
+                    <hr></hr>
                     <div className="col-md-4">
                         <h2>Council Spokesperson</h2>
                         <input type="radio" id="candidate" name ='Council-Spokesperson' value ='Alice' onChange={handleChange}/>
@@ -107,7 +129,7 @@ function Voting(){
                         <label for="Nzisa">Nzisa</label><br></br>
                         <input type="radio" id="candidate" name ='Council-Spokesperson' value ='Peter' onChange={handleChange}/>
                         <label for="Peter">Peter</label><br></br>
-                    <Card />  
+                        
                     </div>
                    
                 </div>

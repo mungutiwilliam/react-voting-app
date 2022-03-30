@@ -6,12 +6,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Card from './components/Card';
 import Footer from './components/Footer';
+import Results from './components/Results';
 
 ReactDOM.render(
   <React.StrictMode>
     <App/>
     <Card/>
     <Footer/>
+    <Results/>
+
   
 
   </React.StrictMode>,
