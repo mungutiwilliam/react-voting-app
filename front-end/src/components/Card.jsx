@@ -125,10 +125,13 @@ function Voting(){
                         <h2>Council Spokesperson</h2>
                         <input type="radio" id="candidate" name ='Council-Spokesperson' value ='Alice' onChange={handleChange}/>
                         <label for="Alice">Alice</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/f/17.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Council-Spokesperson' value ='Nzisa' onChange={handleChange}/>
                         <label for="Nzisa">Nzisa</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/f/8.jpg'}/><br></br>
                         <input type="radio" id="candidate" name ='Council-Spokesperson' value ='Peter' onChange={handleChange}/>
                         <label for="Peter">Peter</label><br></br>
+                        <img src = {process.env.PUBLIC_URL + '/images/m/10.jpg'}/><br></br>
                         
                     </div>
                    
@@ -141,7 +144,7 @@ function Voting(){
                 <p>Your Vote has been casted!
 
                     <h1>Click the button to view results</h1>
-                    <button><a href="http://localhost:4000/results">Results</a> </button>
+                    <button><a href="http://localhost:4000/results">Results</a></button>
                 </p>
                 }
             </div> 

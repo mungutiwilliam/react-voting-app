@@ -14,9 +14,6 @@ ReactDOM.render(
     <Card/>
     <Footer/>
     <Results/>
-
-  
-
   </React.StrictMode>,
   document.getElementById('root')
 );
