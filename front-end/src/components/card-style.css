@@ -5,9 +5,6 @@ body{
 .card{
     width: 20rem;
 }
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
-}
 
 .card-body{
     padding: 3rem 0!important;
@@ -21,5 +18,9 @@ body{
 .container-fluid.row{
     padding-top: 6rem;
     
+}
+.image{
+    height: 300px;
+    width: 400px;
 }
 
