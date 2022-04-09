@@ -23,7 +23,7 @@ function Landing() {
           <Carousel.Caption>
             <h3>ABC University Voting</h3>
             <button type="button" class="btn btn-warning">
-                <Link to="Card">Vote</Link>
+                <Link to="Card" style={{ textDecoration: 'none', color: 'red' }} >Vote</Link>
             </button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -37,7 +37,7 @@ function Landing() {
           <Carousel.Caption>
           <h3>Your Vote Counts</h3>
           <button type="button" class="btn btn-warning">
-                <Link to="Card">Vote</Link>
+                <Link to="Card" style={{ textDecoration: 'none', color: 'white' }} >Vote</Link>
             </button>
           </Carousel.Caption>
         </Carousel.Item>}

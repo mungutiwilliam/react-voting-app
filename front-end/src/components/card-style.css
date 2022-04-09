@@ -103,3 +103,6 @@ input[type=submit]{
     background-color: black;
     border: 3px solid #fd0404;
   }
+  .bg-info{
+    background: url("https://images.pexels.com/photos/1550339/pexels-photo-1550339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
