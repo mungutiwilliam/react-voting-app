@@ -5,6 +5,12 @@ const cors = require('cors');
 const port = 4000;
 const jsonParser = express.json();
 const fileName = 'results.json';
+var cons = require('consolidate');
+
+
+app.set('views');
+app.engine('html', cons.swig)
+app.set('view engine', 'html');
 
 
 // Allow requests only from this client
@@ -18,8 +24,7 @@ let data = JSON.parse(rawData);
 
 // This is a RESTful GET web service
 app.get('/results', (request, response) => {
-    data.sort((a, b) => (a.firstName > b.firstName) ? 1 : -1 );
-    response.send(data);
+    response.render('results.html');
 });
 
 // This is a RESTful POST web service

@@ -1,13 +1,6 @@
-body{
-    background: radial-gradient(#e5e5e5,#ffff,#e5e5e5);
-}
 
 .card{
     width: 20rem;
-}
-
-.card-body{
-    padding: 3rem 0!important;
 }
 
 .card-text{
@@ -20,7 +13,93 @@ body{
     
 }
 .image{
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
+    border: 2px solid rgb(236, 233, 16);
+    border-radius: 40%;
+    padding: 5px;
+    width: 150px;
+    
+}
+.image:hover{
+    height: 200px;
+    width: 212px;
 }
 
+
+img{
+    height: 900px;
+    width: 1600px;
+}
+.labelling{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic;
+    padding-left: 1cm;
+}
+.labelling:hover{
+    font-size: xx-large;
+}
+input[type=submit]{
+    padding-left: 1cm;
+    background-color: #06e619;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15%;
+  }
+  input[type=submit]:hover{
+    background-color: #fa0707;
+  }
+
+  .col-md-4{
+      padding-left: 1cm;
+      background-color: black;
+      justify-content: center;
+
+  }
+  p{
+      font-size: small;
+  }
+  .heading{
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 16cm;
+    background: url("https://images.pexels.com/photos/1550339/pexels-photo-1550339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  .heading h2{
+    padding-left: 1cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: bisque;
+    background-color: black;
+    border: 3px solid #fd0404;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15%;
+    border: 3px solid #fd0404;
+  }
+  .App-mid{
+    background: url("https://images.pexels.com/photos/1550339/pexels-photo-1550339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    font-size: xx-small;
+  }
+  .App-mid h1{
+    padding-right: 1cm;
+    font-style: italic;
+    color: bisque;
+    background-color: black;
+    border: 3px solid #fd0404;
+  }

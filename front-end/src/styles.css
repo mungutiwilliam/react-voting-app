@@ -21,11 +21,11 @@ button
 link{
   color: #000;
 }
-img {
+.image-landing {
   opacity: 0.5;
 
 }
-img:hover {
+.image-landing:hover {
   opacity: 1.0;
 }
 
